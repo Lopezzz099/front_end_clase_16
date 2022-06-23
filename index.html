@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PetShop</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="fondo_negro">
+                <p class="alejar">Grandes ofertas en comederos</p>
+                <ul type="none" class="orden">
+                    <select name="idioma" id="idioma" class="listas">
+                            <option value="español">Español</option>
+                            <option value="ingles">Ingles</option>
+                            <option value="frances">Frances</option>
+                    </select>
+                    <select name="pesos" id="pesos" class="listas">
+                        <option value="arg">ARG$</option>
+                        <option value="dolar">DOL$</option>
+                        <option value="euro">EURO&</option>
+                    </select>
+                </ul>
+            </div> 
+            <div class="fondo_naranja">
+                <img src="img/Logo.png" alt="Imagen logo">
+                <ul type="none">
+                    <li class="separando"><i class="fa-solid fa-paw"></i>Categorías</li>
+                    <li class="separando"><i class="fa-solid fa-paw"></i>Pets</li>
+                    <li class="separando"><i class="fa-solid fa-paw"></i>Nosotros</li>
+                    <li class="separando"><i class="fa-solid fa-paw"></i>Contactanos</li>
+                </ul>
+                <section class="menu">
+                    <i class="fas fa-bars"></i>
+                </section>
+            </div>
+        </header>
+        <main>
+            <section class="imagen">
+                <div class="imagen2">
+                    <p class="subtitulo1">¡Es un placer tenerte aquí!</p>
+                    <p class="subtitulo2">¡Comederos en descuento!</p>
+                    <button>COMEDEROS</button>
+                </div>
+            </section>
+            <section class="modificando">
+                <div class="padre1">
+                    <img src="img/pata.png" alt="Imagen patita"></li>
+                    <h2>Productos Destacados</h2>
+                    <p><span>Comederos</span><span> - </span><span>Accesorios</span><span> - </span><span>Comida</span></p>
+                </div>
+                <article class="articulos">
+                    <div class="hijo1">
+                        <img src="img/churrasquito.png" alt="Imagen producto 1">
+                        <h3>Juguete Churrasquito</h3>
+                        <p>$150</p>
+                    </div>
+                    <div class="hijo1">
+                        <img src="img/comedero.png" alt="Imagen producto 2">
+                        <h3>Comedero para perro</h3>
+                        <p>$250</p>
+                    </div>
+                    <div class="hijo1">
+                        <img src="img/Huesito.png" alt="Imagen producto 3">
+                        <h3>Juguete Huesito</h3>
+                        <p>$650</p>
+                    </div>
+                </article>
+                <form action="#">
+                    <div class="padre2">
+                        <h2>Contáctanos</h2>
+                        <div class="hijito1">
+                            <p><label for="nomYApe"></label></p>
+                            <p><input type="text" name="nombreYApellido" id="nomYApe" placeholder="Nombre y Apellido"></p>
+                        </div>
+                        <div class="hijito1">
+                            <p><label for="correo"></label></p>
+                            <p><input type="email" name="email" id="correo" placeholder="Ingresá tu correo electrónico"></p>
+                        </div>
+                        <div class="hijito1">
+                            <p><label for="celu"></label></p>
+                            <p><input type="tel" name="telefono" id="celu" placeholder="Teléfono"></p>
+                        </div>
+                        <div class="botones">
+                            <button type="reset" class="fondoGris">Resetear</button>
+                            <button type="submit" class="fondoNaranja">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="cambiando">
+                <div class="sector1">
+                    <img src="img/carta.png" alt="carta">
+                    <h2>Suscríbete para más novedades</h2>
+                </div>
+                <form action="#" class="sector2">
+                    <div class="hijito1">
+                        <label for="correo"></label>
+                        <input type="email" name="email" id="correo" placeholder="Ingresá tu correo electrónico">
+                    </div>
+                    <button type="submit" class="fondoMarron">Suscribirme</button>
+                </form>
+            </div>
+            <div class="cambiando2">
+                <div class="padre4">
+                    <div class="hijo2">
+                        <div class="hijo3"><img src="img/Icono.png" alt="Imagen telefono">
+                        </div>
+                        <div class="hijo4"><h3>Localidad</h3>
+                            <p>Calle - provincia</p>
+                        </div>
+                    </div>
+                    <div class="hijo2">
+                        <div class="hijo3"><img src="img/Icono telefono.png" alt="Imagen telefono">
+                        </div>
+                        <div class="hijo4"><h3>Teléfono</h3>
+                            <p>Numero de teléfono</p>
+                        </div>
+                    </div>
+                    <div class="hijo2">
+                        <img src="img/Icono gmail.png" alt="Imagen telefono">
+                        <div class="hijo4"><h3>Correo Electrónico</h3>
+                            <p>Dirección de correo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="padre5">
+                    <img src="img/Logo 2.png" alt="Imagen logo">
+                </div>
+            </div>
+            <div class="cambiando3">
+                <p>Todos los derechos reservados a Front End</p>
+            </div>
+        </footer>
+    </body>
+</html>
+

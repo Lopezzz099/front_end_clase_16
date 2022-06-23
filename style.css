@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital@0;1&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+div.fondo_negro{
+    background-color: #222222;
+    color:#F3F3F3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 1.75rem;
+}
+section.menu{
+    padding: 1rem;
+    display: none;
+}
+select.listas{
+    background-color: #222222;
+    color:#F3F3F3;
+    position: relative;
+    right: 4.0625rem;
+    margin: 0.3125rem;
+}
+p.alejar{
+    position: relative;
+    left: 12.5rem;
+}
+div.fondo_naranja{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 1.25rem;
+}
+div.fondo_naranja img{
+    position: relative;
+    left: 4.6875rem;
+    flex-grow: 0.15;
+}
+div.fondo_naranja ul{
+    display: flex;
+    position: relative;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5625rem;
+}
+li.separando{
+    margin-right: 1.6875rem;
+}
+section.imagen{
+    background-image: url(img/bowl-and-pet-daities-on-green-background\ 1.png);
+    display: flex;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40rem;
+    background-size: cover;
+    align-items: center;
+    justify-content: flex-end;
+}
+div.imagen2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+}
+p.subtitulo1{
+    background-color: white;
+    padding: 1.375rem;
+    border-radius: 0.3125rem;
+    font-size: 3.125rem;
+    font-weight: 400;
+    line-height: 2.1875rem;
+    letter-spacing: 0rem;
+    text-align: center;
+}
+p.subtitulo2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.625rem;
+    line-height: 1.1875rem;
+}
+div.imagen2 button{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    font-size: 1.625rem;
+    height: 5rem;
+    width: 14.6875rem;
+    border-radius:  0.3125rem;
+    border: none;
+}
+div.padre1{
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+}
+div.padre1 img{
+    margin-top: 2.5rem;
+    width: 8.375rem;
+    height: 8.875rem;
+}
+div.padre1 h2{
+    color: #3C2313;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.375rem;
+    line-height: 2.9375rem;
+}
+div.padre1 p span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5625rem;
+    line-height: 1.125rem;
+    margin: 1rem;
+    color: #666666;
+}
+article.articulos{
+    margin-top: 3.75rem;
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+div.hijo1{
+    background-color: #FBFAF6;
+    position: relative;
+    margin-top: 4.375rem;
+    height: 37.5rem;
+    width: 31.25rem;
+    margin: 1.125rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+div.hijo1 img{
+    height: 31.25rem;
+    width: 30rem;
+}
+div.hijo1 h3{
+    color: #3C2313;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5625rem;
+    line-height: 1.125rem;
+    margin: 0rem;
+}
+div.hijo1 p{
+    color: #F0A83E;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5625rem;
+    line-height: 1.125rem;
+}
+div.padre2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+}
+div.padre2 h2{
+    margin-top: 9.375rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.625rem;
+    line-height: 2.9375rem;
+    color: #3C2313;
+    margin-bottom: 0rem;
+}
+
+div.hijito1 input{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #3C2313;
+    color: #FFFFFF;
+    margin: 0.9375rem;
+    height: 3.75rem;
+    width: 37.5rem;
+    border-radius: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8125rem;
+    line-height: 0.6875rem;
+}
+input::placeholder{
+    padding-left: 1rem;
+}
+
+div.botones{
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: row;
+}
+button{
+    margin: 0.75rem;
+}
+button.fondoGris{
+    background-color: #8A8787;
+    color: #FFFFFF;
+    font-size: 1.625rem;
+    height: 3.75rem;
+    width: 12.5rem;
+    border-radius: 1.75rem;
+    border: none;
+}
+button.fondoNaranja{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    font-size: 1.625rem;
+    height: 3.75rem;
+    width: 12.5rem;
+    border-radius: 1.75rem;
+    border: none;
+}
+div.cambiando{
+    margin-top: 7.5rem;
+    background-color: #F0A83E;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 0.1875rem;
+}
+div.sector1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+div.sector1 img{
+    width: 5rem;
+    margin-left: 1.5625rem;
+}
+div.sector1 h2{
+    font-size: 2.5rem;
+    margin-left: 1.5625rem;
+    color: #FFFFFF;
+}
+form.sector2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+form.sector2 input{
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 0.8125rem;
+    background-color: #FFFFFF;
+    color: #A0A0A0;
+    height: 3.75rem;
+    width: 31.25rem;
+    border-radius: 1.25rem;
+}
+span.alejandolo{
+    margin-left: 1.25rem;
+}
+button.fondoMarron{
+    background-color: #3C2313;
+    color: #FFFFFF;
+    font-size: 0.8125rem;
+    height: 3.75rem;
+    width: 7.5rem;
+    border-radius: 1.625rem;
+    border: none;
+}
+
+div.cambiando2{
+    background-color: #3C2313;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    padding: 1.25rem;
+}
+div.padre4{
+    display: flex;
+    position: relative;
+    margin-left: 3.125rem;
+    flex-direction: column;
+}
+div.hijo2{
+    display: flex;
+    position: relative;
+    margin: 1.25rem;
+    align-items: center;
+}
+div.hijo2 img{
+    position: relative;
+    width: 6.25rem;
+    height: 6.25rem;
+}
+div.hijo4{
+    display: flex;
+    position: relative;
+    margin-left: 1.25rem;
+    flex-direction: column;
+}
+div.hijo4 h3{
+    position: relative;
+    margin: 0rem;
+    font-size: 1.875rem;
+    color: #FFFFFF;
+}
+div.hijo4 p{
+    position: relative;
+    margin: 0rem;
+    font-size: 0.9375rem;
+    color: #8A8787;
+}
+div.padre5{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 7.5rem;
+}
+div.padre5 img{
+    position: relative;
+    height: 2.875rem;
+    width: 20.75rem;
+}
+
+div.cambiando3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 1.75rem;
+}
+div.cambiando3 p{
+    position: relative;
+    background-color: #222222;
+    color: #FFFFFF;
+    padding: 0.625rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+}
+@media (max-width:554px){ 
+    div.fondo_negro{
+    display: none;
+    }
+    div.fondo_naranja img{
+    left: 0rem;
+    }
+    section.menu{
+    display: inline;
+    }
+    div.fondo_naranja ul{
+    display: none;
+    }
+    section.imagen{
+    background-position:left;
+    height: 20rem;
+    }
+    p.subtitulo1{
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+    p.subtitulo2{
+        margin: 0rem;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+    div.imagen2 button{
+        margin: 1rem;
+        font-size: .8rem;
+        height: 3rem;
+        width: 9rem;
+    }
+    div.padre1 img{
+        width: 6.375rem;
+        height: 6.875rem;
+    }
+    div.padre1 h2{
+        text-align: center;
+        font-size: 2.8rem;
+    }
+    div.padre1 p span{
+        font-size: 1rem;
+        margin: .3rem;
+    }
+    div.hijo1{
+        height: 21.5rem;
+        width: 16.25rem;
+    }
+    div.hijo1 img{
+        height: 18.25rem;
+        width: 15rem;
+    }
+    div.hijo1 h3{
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+    div.hijo1 p{
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+    div.padre2 h2{ 
+        margin-top: 3rem;
+        font-size: 2rem;
+    }
+    div.hijito1 input{
+        width: 16.5rem;
+        height: 2.75rem;
+        font-size: 0.6125rem;
+    }
+    input::placeholder{
+        margin-left: 1.25rem;
+    }
+    button.fondoGris{
+        font-size: 1rem;
+        height: 2.75rem;
+        width: 8.5rem;
+    }
+    button.fondoNaranja{
+        font-size: 1rem;
+        height: 2.75rem;
+        width: 8.5rem;
+    }
+    div.cambiando{
+        margin-top: 5rem;
+        flex-direction: column;
+    }
+    div.sector1 img{
+        width: 3rem;
+        margin-left: .5rem;
+    }
+    div.sector1 h2{
+        font-size: 1rem;
+        margin-left: .5rem;
+    }
+    form.sector2 input{
+        font-size: 0.6125rem;
+        height: 2.75rem;
+        width: 10.25rem;
+    }
+    button.fondoMarron{
+        font-size: 0.6125rem;
+        height: 2.75rem;
+        width: 5.5rem;
+        border-radius: 1.625rem;
+    }
+
+    div.cambiando2{
+        flex-direction: column-reverse;
+    }
+    div.padre4{
+        margin-left: 0rem;
+    }
+    div.hijo2 img{
+        width: 3.25rem;
+        height: 3.25rem;
+    }
+    div.hijo4 h3{
+        font-size: 1.1rem;
+    }
+    div.hijo4 p{
+        font-size: 0.7375rem;
+    }
+    div.padre5{
+        margin-right: 0rem;
+        order: 1;
+        justify-content: center;
+        align-items: center;
+    }
+    div.padre5 img{
+        height: .675rem;
+        width: 4.75rem;
+    }
+    
+    div.cambiando3{
+        height: .75rem;
+    }
+    div.cambiando3 p{
+        padding: 0.625rem;
+        width: 100%;
+        text-align: center;
+        font-size: .6rem;
+    }
+}
